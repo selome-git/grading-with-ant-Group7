@@ -1,1 +1,8 @@
-nbProject/   
+nbProject/ 
+build-impl.xml
++ private
++ project .properties
++ project.xml
++src/
++test/
++build.xml 
