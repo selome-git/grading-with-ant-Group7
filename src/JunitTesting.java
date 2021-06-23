@@ -39,7 +39,7 @@ public class JUnitTest {
     
    
 
-    // TODhshhO add test methods here.
+    // TODhO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //
     // @Test
