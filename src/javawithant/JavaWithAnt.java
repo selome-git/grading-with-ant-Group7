@@ -31,17 +31,20 @@ public float getMark()
         }
         //Calculating average here
        
-        return avg;
- public float calcAvg(float mark)
+        
+ public float calcAvg(float total)
  {
-     float total=getMark();
- avg = total/6;
+ float totalMark=total;
+ float avg = totalMark/6;
+ return avg;
+
+
  }
 
-pubic String getGrade(int subjects)
+pubic String getGrade(float avg)
 {
     //assuming there will be 6 subjects
-    float average=calcAvg();
+    float average=avg;
         System.out.println("The students' Grade is: ");
         if(avg>=80)
         {
