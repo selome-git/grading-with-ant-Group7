@@ -40,12 +40,13 @@ public class JUnitTest {
     @Test
 public void testSubjects()
 {
-    
+
  subjects=javawithant.getSubjects();
  assertEquals(subjects,6);
 }
 public void testAvg()
 {
+    
  average=javawithant.calcAvg(avg);
  assertEquals(avg,85);
 
