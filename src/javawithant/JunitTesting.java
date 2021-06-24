@@ -17,7 +17,7 @@ public class JUnitTest {
   float avg=85;
   
   String grade=90;
-//testing junit class to test each functions
+//testing junit class to test each  functions
     public JUnitTest() {
     }
      @Before

@@ -9,7 +9,7 @@ public class GetGrade {
     String grade=getGrade(subjectsNum);
 
 
-        System.out.println("Grade for entered marks is "+grade);
+        System.out.println("Grade for entered marks is :"+grade);
         
 }
 public float getMark()
@@ -29,7 +29,7 @@ public float getMark()
         scanner.close();
         return total;
         }
-        pub//Calculating average here
+        //Calculating average here
        
         return avg;
  public float calcAvg(float mark)
