@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+nbProject/   
+/build/
+=======
+nbProject/ 
+build-impl.xml
++ private
++ project .properties
++ project.xml
++src/
++test/
++build.xml 
+>>>>>>> 04706097622a33be160ac446365d45f2f362659f
