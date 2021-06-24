@@ -1,12 +1,12 @@
 package javawithant;
 import java.util.Scanner;
-
+//////This program is CLI based and gets marks for 6subjects and prints calculated grade to console
 public class GetGrade {
 
     public static void main(String args[])
     {
     int subjectsNum=getSubjects();
-    	String grade=getGrade(subjectsNum);
+    String grade=getGrade(subjectsNum);
 
 
         System.out.println("Grade for entered marks is "+grade);
