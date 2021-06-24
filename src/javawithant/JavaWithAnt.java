@@ -9,7 +9,7 @@ public class GetGrade {
     	String grade=getGrade(subjectsNum);
 
 
-        System.out.println("Grade for neterd marks is "+grade);
+        System.out.println("Grade for entered marks is "+grade);
         
 }
 public float getMark()
