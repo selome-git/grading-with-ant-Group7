@@ -33,7 +33,6 @@ public float getMark()
            total = total + marks[i];
         }
         scanner.close();
-<<<<<<< HEAD
         return total;
         }
         pub//Calculating average here
@@ -50,11 +49,6 @@ pubic String getGrade(int subjects)
     //assuming there will be 6 subjects
     float average=calcAvg();
         System.out.println("The students' Grade is: ");
-=======
-        //Calculating average here
-        avg = total/5;
-        System.out.print("The student Grade is: ");
->>>>>>> 04706097622a33be160ac446365d45f2f362659f
         if(avg>=80)
         {
             return "A";
@@ -69,14 +63,14 @@ pubic String getGrade(int subjects)
         }
          else if(avg>=35 && avg<39)
         {
-<<<<<<< HEAD
             return "D";
-=======
-            System.out.print("D");
-        else
+        }
+        else if(avg<35 && avg >0)
         {
-            System.out.print("F");
->>>>>>> 04706097622a33be160ac446365d45f2f362659f
+            return "F";
+        }
+        else{
+            return"invalid input";
         }
     }
 }
