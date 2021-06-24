@@ -40,6 +40,7 @@ public class JUnitTest {
     @Test
 public void testSubjects()
 {
+    
  subjects=javawithant.getSubjects();
  assertEquals(subjects,6);
 }
