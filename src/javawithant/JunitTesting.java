@@ -26,6 +26,7 @@ public class JUnitTest {
         subjectsNum=6;
     }
     
+    
 
 
     @Test
