@@ -5,7 +5,6 @@ public class GetGrade {
 
     public static void main(String args[])
     {
-<<<<<<< HEAD
     int subjectsNum=getSubjects();
     	getGrade(subjectsNum);
         
@@ -15,14 +14,6 @@ public float getMark()
    int subjects[]=new int[6];
    
            int i;
-=======
-    	/* This program assumes that the student has 6 subjects,
-    	 * thats why I have created the array of size 6. You can
-    	 * change this as per the requirement.
-    	 */
-        int marks[] = new int[5];
-        int i;
->>>>>>> 04706097622a33be160ac446365d45f2f362659f
         float total=0, avg;
        Global Scanner scanner = new Scanner(System.in);
 		

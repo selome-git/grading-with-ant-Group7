@@ -26,16 +26,7 @@ public class JUnitTest {
         subjectsNum=6;
     }
     
-    @After
-    public void tearDown() {
-    }
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
+
 
     @Test
 public void testSubjects()
