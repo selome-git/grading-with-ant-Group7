@@ -26,26 +26,20 @@ public class JUnitTest {
         subjectsNum=6;
     }
     
-    @After
-    public void tearDown() {
-    }
-    @BeforeClass
-    public static void setUpClass() {
-    }
-    
-    @AfterClass
-    public static void tearDownClass() {
-    }
+
+
+
 
     @Test
 public void testSubjects()
 {
-    
+
  subjects=javawithant.getSubjects();
  assertEquals(subjects,6);
 }
 public void testAvg()
 {
+    
  average=javawithant.calcAvg(avg);
  assertEquals(avg,85);
 
@@ -58,11 +52,5 @@ public void testGrade()
 
 }
     
-   
-
-    // TODhO add test methods here.
-    // The methods must be annotated with annotation @Test. For example:
-    //
-    // @Test
-    // public void hello() {}
+  
 }

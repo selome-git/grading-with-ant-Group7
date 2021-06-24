@@ -1,13 +1,15 @@
 package javawithant;
 import java.util.Scanner;
-
+//////This program is CLI based and gets marks for 6subjects and prints calculated grade to console
 public class GetGrade {
 
     public static void main(String args[])
     {
-<<<<<<< HEAD
     int subjectsNum=getSubjects();
-    	getGrade(subjectsNum);
+    String grade=getGrade(subjectsNum);
+
+
+        System.out.println("Grade for entered marks is "+grade);
         
 }
 public float getMark()
@@ -15,14 +17,6 @@ public float getMark()
    int subjects[]=new int[6];
    
            int i;
-=======
-    	/* This program assumes that the student has 6 subjects,
-    	 * thats why I have created the array of size 6. You can
-    	 * change this as per the requirement.
-    	 */
-        int marks[] = new int[5];
-        int i;
->>>>>>> 04706097622a33be160ac446365d45f2f362659f
         float total=0, avg;
        Global Scanner scanner = new Scanner(System.in);
 		
@@ -33,7 +27,6 @@ public float getMark()
            total = total + marks[i];
         }
         scanner.close();
-<<<<<<< HEAD
         return total;
         }
         pub//Calculating average here
@@ -50,11 +43,6 @@ pubic String getGrade(int subjects)
     //assuming there will be 6 subjects
     float average=calcAvg();
         System.out.println("The students' Grade is: ");
-=======
-        //Calculating average here
-        avg = total/5;
-        System.out.print("The student Grade is: ");
->>>>>>> 04706097622a33be160ac446365d45f2f362659f
         if(avg>=80)
         {
             return "A";
@@ -69,14 +57,14 @@ pubic String getGrade(int subjects)
         }
          else if(avg>=35 && avg<39)
         {
-<<<<<<< HEAD
             return "D";
-=======
-            System.out.print("D");
-        else
+        }
+        else if(avg<35 && avg >0)
         {
-            System.out.print("F");
->>>>>>> 04706097622a33be160ac446365d45f2f362659f
+            return "F";
+        }
+        else{
+            return"invalid input";
         }
     }
 }
