@@ -6,7 +6,9 @@ public class GetGrade {
     public static void main(String args[])
     {
     int subjectsNum=getSubjects();
-    	getGrade(subjectsNum);
+    	String grade=getGrade(subjectsNum);
+
+        System.out.println("Grade for neterd marks is "+grade);
         
 }
 public float getMark()
