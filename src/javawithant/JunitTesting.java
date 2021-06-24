@@ -17,7 +17,7 @@ public class JUnitTest {
   float avg=85;
   
   String grade=90;
-
+//testing junit class to test each functions
     public JUnitTest() {
     }
      @Before
@@ -25,11 +25,6 @@ public class JUnitTest {
        =new javawithant();
         subjectsNum=6;
     }
-    
-
-
-
-
     @Test
 public void testSubjects()
 {
