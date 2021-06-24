@@ -8,6 +8,7 @@ public class GetGrade {
     int subjectsNum=getSubjects();
     	String grade=getGrade(subjectsNum);
 
+
         System.out.println("Grade for neterd marks is "+grade);
         
 }
