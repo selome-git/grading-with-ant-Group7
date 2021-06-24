@@ -40,6 +40,7 @@ public class JUnitTest {
     @Test
 public void testSubjects()
 {
+    
  subjects=javawithant.getSubjects();
  assertEquals(subjects,6);
 }
@@ -60,7 +61,7 @@ public void testGrade()
    
 
     // TODhO add test methods here.
-    // The mjethods must be annotated with annotation @Test. For example:
+    // The methods must be annotated with annotation @Test. For example:
     //
     // @Test
     // public void hello() {}
